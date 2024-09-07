@@ -12,7 +12,7 @@ body {
 }
 
 header, .sec1 {
-    background-color: darkslategrey;
+    background-color: #1F2937;
 }
 
 header, footer {
@@ -30,10 +30,23 @@ ul {
     list-style-type: none;
 }
 
+.headerLogoText {
+    color: #F9FAF8;
+}
+
+.headerLinkText {
+    color: #E5E7EB;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
     height: 100vh;
+}
+
+.heroMainText {
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .sec1 {;
@@ -63,7 +76,7 @@ ul {
 .sec4 {
     display: flex;
     justify-content: space-around;
-    background-color: blue;
+    background-color: #3882F6;
     flex: 1;
     margin: 30px;
 }
@@ -77,4 +90,19 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: darkslategrey;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+h2 {
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
 }
