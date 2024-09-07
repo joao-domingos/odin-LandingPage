@@ -15,6 +15,10 @@ header, .sec1 {
     background-color: darkslategrey;
 }
 
+header, footer {
+    padding: 15px;
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -23,6 +27,7 @@ header {
 
 ul {
     display: flex;
+    list-style-type: none;
 }
 
 .hero {
